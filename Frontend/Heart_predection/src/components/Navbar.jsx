@@ -6,10 +6,10 @@ const Navbar = () => {
   return (
     <>
       <div className="flex justify-between p-4 px-10">
-        <div className='w-[50%] text-lg font-semibold' >
+        <div className='w-[60%] text-lg font-semibold' >
           HealthAI
         </div>
-        <div className='w-[50%]'>
+        <div className='w-[40%]'>
           <ul className='flex justify-around'>
             {homeList.map((item, index) => (
               <li key={index}>{item}</li>
